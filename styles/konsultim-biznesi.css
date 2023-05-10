@@ -1,0 +1,296 @@
+p {
+    line-height: 2.2rem;
+}
+
+.navigation-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation-container li {
+    margin: 0 5px;
+}
+
+.section {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.active a{
+    color: #57b871 !important;
+}
+
+.active-paginator {
+    background-color: #4dbb6d;
+    color: white;
+}
+
+/* Borders */
+.border-gray {
+    border: 2px solid #bcc4bf;
+}
+
+.border-white {
+    border: 2px solid white;
+}
+
+.border-bottom-gray {
+    border-bottom: 2px solid #bcc4bf;
+}
+
+.border-top-gray {
+    border-top: 2px solid #bcc4bf;
+}
+
+.border-right-gray {
+    border-right: 2px solid #bcc4bf;
+}
+
+.border-left-gray {
+    border-left: 2px solid #bcc4bf;
+}
+
+.border-left-green {
+    border-left: 2px solid #57b871;
+}
+
+.border-left-white {
+    border-left: 2px solid white;
+}
+
+#header {
+    background-image: url('../img/bg-consulting.jpeg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: 25%;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 15% 1fr 15%;
+}
+
+/* Font sizes */
+.font-xxs {
+    font-size: 0.4rem;
+}
+
+.font-xs {
+    font-size: 0.9rem;
+}
+
+.font-s{
+    font-size: 1.4rem;
+}
+
+.font-m {
+    font-size: 1.9rem;
+}
+
+.font-lg{
+    font-size: 2.4rem;
+}
+
+.font-xlg {
+    font-size: 2.9rem;
+}
+
+.font-xxlg {
+    font-size: 3.4rem;
+}
+
+.arrow {
+    background-color: black;
+    padding: 30% 0;
+}
+
+.arrow .fa-arrow-left,
+.arrow .fa-arrow-right {
+    position: relative;
+}
+
+.arrow .fa-arrow-left {
+    left: 20px;
+}
+
+.arrow .fa-arrow-right {
+    right: 20px;
+}
+
+.btn {
+    padding: 1.4rem 2rem;
+}
+
+.btn-secondary {
+    color: #4dbb6d;
+    border: 2px solid;
+    background-color: transparent;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-main-green {
+    background-color: #4dbb6d;
+}
+
+.bg-main-gray {
+    background-color: rgb(238, 243, 242);
+}
+
+.bg-secondary-gray {
+    background-color: #b0afaf;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+#about_us_list {
+    height: 195px;
+}
+
+#about_us_list li {
+    background: url(../img/icons/bullet-2.png) no-repeat;
+    list-style-position: inside;
+    list-style: none;
+    padding-left: 40px;
+    display: block;
+}
+
+.main-green {
+    color: #4dbb6d;
+}
+
+.main-gray {
+    color: rgb(238, 243, 242)
+}
+
+#stats_grid {
+    grid-template: 1fr 1fr / 1fr 1fr;
+}
+
+#stats_grid .two {
+    background-image: radial-gradient(farthest-side at left bottom, #80808029, transparent);
+}
+
+#stats_grid .three {
+    background-image: radial-gradient(farthest-side at right top, #80808029, transparent);
+}
+
+.rounded-icons {
+    height: 120px;
+    width: 120px;
+/*    padding: 35px;*/
+    border: 15px solid white;
+    border-radius: 100%;
+}
+
+.circle {
+    border-radius: 100%;
+}
+
+.pagination {
+    margin-left: 10%;
+}
+
+.pagination .paginator {
+    width: 45px;
+    height: 45px;
+    margin: 0 5px;
+}
+
+.inactive-paginator {
+    background-color: rgb(238, 243, 242);
+    color: #4dbb6d;
+}
+
+.share-btn {
+    width: 55px;
+    height: 55px;
+    position: relative;
+    left: 75%;
+    bottom: 33%;
+}
+
+/* Colors */
+.white {
+    color: white;
+}
+
+.gray {
+    color: gray;
+}
+
+.green {
+    color: #57b871;
+}
+
+.red {
+    color: red;
+}
+
+#contact_us_container {
+    background-image: url('../img/contact-background.jpg');
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+}
+
+
+#contact_us .input-container input[type="text"],
+#contact_us .input-container input[type="email"],
+#contact_us .input-container textarea {
+    border: 0;
+    outline: none;
+}
+
+footer {
+    background-color: #1b1d2a;
+}
+
+.team-card .profile {
+    background-image: url('../img/team-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.close-btn {
+    display: none;
+}
+
+.btn,
+.paginator,
+.qa-pannel-title--js,
+.next--js,
+.prev--js {
+    cursor: pointer;
+}
+
+.expretize-item:hover {
+    transform: scale(1.03);
+    transition: transform 2s;
+    box-shadow: 1px 1px 10px black;
+    padding: 2%;
+    cursor: pointer;
+}
+
+.navigation-trigger,
+.hidden {
+    display: none;
+}
+
+.navigation-container {
+    display: block;
+}
+
+.up {
+    background-color: gray;
+    color: white;
+    bottom: 25%;
+    right: 10px;
+    width: 55px;
+    height: 55px;
+    z-index: 5;
+}

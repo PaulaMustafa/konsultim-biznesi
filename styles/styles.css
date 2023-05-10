@@ -1,0 +1,426 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding: 0 5%;
+}
+
+.grid {
+    display: grid;
+}
+
+/* Flex */
+.flex {
+    display: flex;  
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
+
+.decoration-none {
+    text-decoration: none;
+}
+
+/*Height*/
+
+.height-1 {
+  height: 0.5rem;
+}
+
+.height-2 {
+  height: 1rem;
+}
+
+.height-90-perc {
+    height: 90%;
+}
+
+.height-100 {
+  height: 100px;
+}
+
+.height-300 {
+  height: 300px;
+}
+
+/* Width */
+.w-min-content {
+    width: min-content;
+}
+
+.w-5 {
+    width: 5%;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.w-20 {
+    width: 20%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-95 {
+    width: 95%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/* Max width */
+.max-w-10 {
+    max-width: 10%;
+}
+
+.max-w-20 {
+    max-width: 20%;
+}
+
+.max-w-30 {
+    max-width: 30%;
+}
+
+.max-w-40 {
+    max-width: 40%;
+}
+
+.max-w-50 {
+    max-width: 50%;
+}
+
+.max-w-60 {
+    max-width: 60%;
+}
+
+.max-w-70 {
+    max-width: 70%;
+}
+
+.max-w-80 {
+    max-width: 80%;
+}
+
+.max-w-90 {
+    max-width: 90%;
+}
+
+.max-w-100 {
+    max-width: 100%;
+}
+
+.list-style-none {
+    list-style-type: none;
+}
+
+/* Borders */
+.border-0 {
+    border: 0;
+}
+
+/* Margins */
+.m-1 {
+    margin: 0.5rem;
+}
+
+.m-2 {
+    margin: 1rem;
+}
+
+.m-3 {
+    margin: 1.5rem;
+}
+
+.m-4 {
+    margin: 2rem;
+}
+
+.m-5 {
+    margin: 2.5rem;
+}
+
+.m-top-1 {
+    margin-top: 0.5rem;
+}
+
+.m-top-2 {
+    margin-top: 1rem;
+}
+
+.m-top-3 {
+    margin-top: 1.5rem;
+}
+
+.m-top-4 {
+    margin-top: 2rem;
+}
+
+.m-top-5 {
+    margin-top: 2.5rem;
+}
+
+.m-bottom-1 {
+    margin-bottom: 0.5rem;
+}
+
+.m-bottom-2 {
+    margin-bottom: 1rem;
+}
+
+.m-bottom-3 {
+    margin-bottom: 1.5rem;
+}
+
+.m-bottom-4 {
+    margin-bottom: 2rem;
+}
+
+.m-bottom-5 {
+    margin-bottom: 2.5rem;
+}
+
+.m-right-1 {
+    margin-right: 0.5rem;
+}
+
+.m-right-2 {
+    margin-right: 1rem;
+}
+
+.m-right-3 {
+    margin-right: 1.5rem;
+}
+
+.m-right-4 {
+    margin-right: 2rem;
+}
+
+.m-right-5 {
+    margin-right: 2.5rem;
+}
+
+.m-left-1 {
+    margin-left: 0.5rem;
+}
+
+.m-left-2 {
+    margin-left: 1rem;
+}
+
+.m-left-3 {
+    margin-left: 1.5rem;
+}
+
+.m-left-4 {
+    margin-left: 2rem;
+}
+
+.m-left-5 {
+    margin-left: 2.5rem;
+}
+
+/* Padding */
+.p-1 {
+    padding: 0.5rem;
+}
+
+.p-2 {
+    padding: 1rem;
+}
+
+.p-3 {
+    padding: 1.5rem;
+}
+
+.p-4 {
+    padding: 2rem;
+}
+
+.p-5 {
+    padding: 2.5rem;
+}
+
+.p-top-1 {
+    padding-top: 0.5rem;
+}
+
+.p-top-2 {
+    padding-top: 1rem;
+}
+
+.p-top-3 {
+    padding-top: 1.5rem;
+}
+
+.p-top-4 {
+    padding-top: 2rem;
+}
+
+.p-top-5 {
+    padding-top: 2.5rem;
+}
+
+.p-bottom-1 {
+    padding-bottom: 0.5rem;
+}
+
+.p-bottom-2 {
+    padding-bottom: 1rem;
+}
+
+.p-bottom-3 {
+    padding-bottom: 1.5rem;
+}
+
+.p-bottom-4 {
+    padding-bottom: 2rem;
+}
+
+.p-bottom-5 {
+    padding-bottom: 2.5rem;
+}
+
+.p-left-1 {
+    padding-left: 0.5rem;
+}
+
+.p-left-2 {
+    padding-left: 1rem;
+}
+
+.p-left-3 {
+    padding-left: 1.5rem;
+}
+
+.p-left-4 {
+    padding-left: 2rem;
+}
+
+.p-left-5 {
+    padding-left: 2.5rem;
+}
+
+.p-right-1 {
+    padding-right: 0.5rem;
+}
+
+.p-right-2 {
+    padding-right: 1rem;
+}
+
+.p-right-3 {
+    padding-right: 1.5rem;
+}
+
+.p-right-4 {
+    padding-right: 2rem;
+}
+
+.p-right-5 {
+    padding-right: 2.5rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+.d-none {
+    display: none;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+.z-1 {
+    z-index: 1;
+}
+
+.z-2 {
+    z-index: 2;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: #474646ad;
+}

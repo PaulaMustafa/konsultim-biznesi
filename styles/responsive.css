@@ -1,0 +1,171 @@
+/*
+	s
+*/
+@media screen and (max-width: 768px) {
+	.w-s-20 {
+		width: 20%;
+	}
+
+	.w-s-80 {
+		width: 80%;
+	}
+
+	.w-s-100 {
+		width: 100%;
+	}
+
+	.m-top-s-4 {
+		margin-top: 2rem;
+	}
+
+	.justify-s-center {
+    	justify-content: center;
+	}
+
+	.pagination {
+	    margin-left: 20%;
+	}
+
+	#stats_grid {
+		grid-template: unset;
+		justify-content: center;
+	}
+
+	#stats_grid div {
+		border: 0;
+	}
+
+	#stats_grid .two,
+	#stats_grid .three {
+		background-image: unset;
+	}
+
+	/* Font sizes */
+	.font-xxs {
+	    font-size: 0.2rem;
+	}
+
+	.font-xs {
+	    font-size: 0.5rem;
+	}
+
+	.font-s{
+	    font-size: 1rem;
+	}
+
+	.font-m {
+	    font-size: 1.5rem;
+	}
+
+	.font-lg{
+	    font-size: 2rem;
+	}
+
+	.font-xlg {
+	    font-size: 2.3rem;
+	}
+
+	.font-xxlg {
+	    font-size: 2.8rem;
+	}
+}
+
+/*
+	m
+*/
+@media screen and (min-width: 769px) and (max-width: 1366px) {
+	.w-m-40 {
+		width: 40%;
+	}
+
+	.w-m-20 {
+		width: 20%;
+	}
+
+	.w-m-80 {
+		width: 80%;
+	}
+
+	.w-m-100 {
+		width: 100%;
+	}
+
+	.m-top-m-4 {
+		margin-top: 2rem;
+	}
+
+	.justify-m-center {
+    	justify-content: center;
+	}
+}
+
+/*m & s*/
+@media screen and (max-width: 1366px) {
+	#header {
+		grid-template-rows: 15% 1fr 50%;
+	}
+
+	.m-left-m-1 {
+	    margin-left: 0.5rem;
+	}
+
+	.m-left-m-2 {
+	    margin-left: 1rem;
+	}
+
+	.m-left-m-3 {
+	    margin-left: 1.5rem;
+	}
+
+	.m-left-m-4 {
+	    margin-left: 2rem;
+	}
+
+	.m-left-m-5 {
+	    margin-left: 2.5rem;
+	}
+
+	.open {
+		display: unset;
+		position: absolute;
+	    top: 0;
+	    right: 0;
+	    width: 300px;
+	    height: 100vh;
+	    background-color: #00000080;
+	    z-index: 2;
+	}
+
+	.open ul{
+		visibility: visible !important;
+	}
+
+	.navigation-container{
+		position: fixed;
+	}
+
+	.navigation-container ul {
+		text-align: center;
+		display: flex;
+	    flex-direction: column;
+	    justify-content: space-around;
+	    height: 100%;
+		width: 300px;
+		visibility: hidden;
+	}
+
+	.navigation-trigger {
+		display: block;
+		position: fixed;
+		right: 30px;
+	}
+/* 
+	.navigation-container {
+		display: none;
+	} */
+
+	.right-250 {
+		right: 330px;
+	}
+}
+
